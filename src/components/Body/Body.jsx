@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Body() {
+export default function Body({ children, delay = 0}) {
   return (
-    <div></div>
+    <div className='body-container'> 
+      <p>{children}</p>
+    </div>
   )
 }
