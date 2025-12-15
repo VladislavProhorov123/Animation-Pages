@@ -17,7 +17,6 @@
   margin-bottom: 16px;
 }
 
-/* Home */
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -25,14 +24,8 @@
   margin-top: 32px;
 }
 
-.feature-card {
-  padding: 20px;
-  border-radius: 12px;
-  background: #f9fafb;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
 
-/* About */
+
 .about-list {
   margin-top: 20px;
   padding-left: 0;
@@ -44,7 +37,6 @@
   font-size: 16px;
 }
 
-/* Contact */
 .contact-form {
   max-width: 400px;
   display: flex;
@@ -72,4 +64,7 @@
 
 .contact-form button:hover {
   background: #1e40af;
+}
+
+.App {
 }
